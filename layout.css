@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: orange;
+}
+
+.head{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding-block-end: 2px;
+    align-items: center;
+}
+span{
+    color: #fff;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu .odd li{
+    padding: 30px;
+}
+.image{
+    background: url(Ajeet/background.webp);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.school{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.school p{
+    border: 1px solid;
+    padding: 40px;
+    border-radius: 30px;
+    margin: 10px;
+    background-color: #fff;
+    font-size: large;
+}
+.headingbox{
+    display: flex;
+    margin: 0 16px;
+}
+
+.fsl ul li{
+    width: 112px;
+    padding-top: 10px;
+    list-style: none;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.FSL{
+    margin-left: 15px;
+}
+
+.FSL p{
+    padding-top: 18px;
+}
+
+.fsl ul li{
+    padding: 8px;
+    width: 130px;
+}
+
+.headingbox .fsl ul{
+    border-right: 1px solid;
+    padding: 0 50px;
+    margin: 20px 0; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.head{
+    padding-left: 20px;
+}
